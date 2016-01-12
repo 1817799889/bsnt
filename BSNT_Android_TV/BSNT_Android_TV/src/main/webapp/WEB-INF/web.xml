@@ -1,0 +1,229 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>SelectCostume</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.cn.bsnt.servlet.SelectCostume</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectExerciseShose</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.cn.bsnt.servlet.SelectExerciseShose</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectRelaxationShoes</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.cn.bsnt.servlet.SelectRelaxationShoes</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectComputer</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.cn.bsnt.servlet.SelectComputer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectMobilePhone</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.cn.bsnt.servlet.SelectMobilePhone</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectCamera</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.cn.bsnt.servlet.SelectCamera</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectDigiyalAccessories</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.cn.bsnt.servlet.SelectDigiyalAccessories</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectVideoPlayOrgan</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectVideoPlayOrgan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectCameraMonitored</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectCameraMonitored</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectSmartDevice</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectSmartDevice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectMotherBabyProduct</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectMotherBabyProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectMotherBabyFood</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectMotherBabyFood</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectEarlyEductionEnlightenment</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectEarlyEductionEnlightenment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectMilkDrink</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectMilkDrink</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectBrandEndTable</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectBrandEndTable</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectDoorWindows</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectDoorWindows</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectDecorateBuildingmaterials</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectDecorateBuildingmaterials</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelecAgriculturesUseTricycle</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelecAgriculturesUseTricycle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectAgriculturesUseArticles</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectAgriculturesUseArticles</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectAgriculturesMachinery</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectAgriculturesMachinery</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectAgriculturesUseTools</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectAgriculturesUseTools</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectMedicacare</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectMedicacare</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectOfficeStationary</servlet-name>
+    <servlet-class>com.cn.bsnt.servlet.SelectOfficeStationary</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SelectCostume</servlet-name>
+    <url-pattern>/servlet/SelectCostume</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectExerciseShose</servlet-name>
+    <url-pattern>/servlet/SelectExerciseShose</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectRelaxationShoes</servlet-name>
+    <url-pattern>/servlet/SelectRelaxationShoes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectComputer</servlet-name>
+    <url-pattern>/servlet/SelectComputer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectMobilePhone</servlet-name>
+    <url-pattern>/servlet/SelectMobilePhone</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCamera</servlet-name>
+    <url-pattern>/servlet/SelectCamera</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectDigiyalAccessories</servlet-name>
+    <url-pattern>/servlet/SelectDigiyalAccessories</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectVideoPlayOrgan</servlet-name>
+    <url-pattern>/servlet/SelectVideoPlayOrgan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectCameraMonitored</servlet-name>
+    <url-pattern>/servlet/SelectCameraMonitored</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectSmartDevice</servlet-name>
+    <url-pattern>/servlet/SelectSmartDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectMotherBabyProduct</servlet-name>
+    <url-pattern>/servlet/SelectMotherBabyProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectMotherBabyFood</servlet-name>
+    <url-pattern>/servlet/SelectMotherBabyFood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectEarlyEductionEnlightenment</servlet-name>
+    <url-pattern>/servlet/SelectEarlyEductionEnlightenment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectMilkDrink</servlet-name>
+    <url-pattern>/servlet/SelectMilkDrink</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectBrandEndTable</servlet-name>
+    <url-pattern>/servlet/SelectBrandEndTable</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectDoorWindows</servlet-name>
+    <url-pattern>/servlet/SelectDoorWindows</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectDecorateBuildingmaterials</servlet-name>
+    <url-pattern>/servlet/SelectDecorateBuildingmaterials</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelecAgriculturesUseTricycle</servlet-name>
+    <url-pattern>/servlet/SelecAgriculturesUseTricycle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAgriculturesUseArticles</servlet-name>
+    <url-pattern>/servlet/SelectAgriculturesUseArticles</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAgriculturesMachinery</servlet-name>
+    <url-pattern>/servlet/SelectAgriculturesMachinery</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectAgriculturesUseTools</servlet-name>
+    <url-pattern>/servlet/SelectAgriculturesUseTools</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectMedicacare</servlet-name>
+    <url-pattern>/servlet/SelectMedicacare</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectOfficeStationary</servlet-name>
+    <url-pattern>/servlet/SelectOfficeStationary</url-pattern>
+  </servlet-mapping>
+
+</web-app>
